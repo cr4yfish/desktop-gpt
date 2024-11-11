@@ -1,7 +1,39 @@
-# Tauri + React + Typescript
+# Desktop GPT
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Customizable and Privacy Oriented Desktop Assistant.
+Run LLMs locally for free, on your own server - or from OpenAI and others.
 
-## Recommended IDE Setup
+## Target Features
+- [ ] Basic Chat
+- [ ] Websearch
+- [ ] Screencapture
+    - [ ] Manual
+    - [ ] Automatic
+- [ ] Document Chats
+- [ ] RAG on Documents & Screencaptures
+- [ ] Call on keyboard shortcut
+- [ ] GenUI
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Target LLM support
+- [ ] GPT-4o, o1
+- [ ] Ollama
+- [ ] Gemini
+- [ ] Claude models
+- [ ] Perplexities models
+- [ ] Mistral Models
+
+## Target LLM runtimes
+- Local on GPU
+- Official Providers (e.g. OpenAI API)
+- You own servers
+
+## Stack
+Front to back:
+- Shadcn UI
+- Tailwind
+- React
+- Langchain
+- Typescript
+- Deno
+- Rust
+- Tauri
